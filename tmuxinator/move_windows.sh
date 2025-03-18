@@ -1,0 +1,1 @@
+/home/victorhgh/dotfiles/tmuxinator/move_windows.sh

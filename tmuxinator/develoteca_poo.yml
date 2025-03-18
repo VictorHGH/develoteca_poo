@@ -1,0 +1,10 @@
+# /home/victorhgh/Documents/programacion/php/projects/www/develoteca_poo/tmuxinator/develoteca_poo.yml
+
+name: Develoteca_POO
+root: ~/Documents/programacion/php/projects/www/develoteca_poo
+windows:
+  - Editor:
+      layout: 4ab8,179x55,0,0[179x47,0,0,0,179x7,0,48,1]
+      panes:
+        - bash ./tmuxinator/move_windows.sh ; docker compose up  -d ; vic
+
