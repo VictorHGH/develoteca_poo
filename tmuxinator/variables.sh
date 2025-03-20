@@ -12,7 +12,7 @@ else
     exit 1
 fi
 
-link2="https://cursos.develoteca.com/courses/take/poo-php-web/lessons/60579257-0-0-bienvenida-al-curso-de-poo"
+link2="https://cursos.develoteca.com/courses/take/poo-php-web/lessons/60415494-1-3-herramientas-necesarias"
 
 export link1
 export link2
