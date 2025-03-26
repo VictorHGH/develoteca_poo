@@ -12,7 +12,7 @@ else
     exit 1
 fi
 
-link2="https://cursos.develoteca.com/courses/take/poo-php-web/lessons/60415494-1-3-herramientas-necesarias"
+link2="https://cursos.develoteca.com/courses/take/poo-php-web/lessons/60435878-2-7-manipulacion-de-atributos-en-php"
 
 export link1
 export link2
