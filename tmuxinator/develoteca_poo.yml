@@ -6,5 +6,14 @@ windows:
   - Editor:
       layout: 4ab8,179x55,0,0[179x47,0,0,0,179x7,0,48,1]
       panes:
-        - bash ./tmuxinator/move_windows.sh ; docker compose up  -d ; vic
+
+        # config for docker:
+        # - bash ./tmuxinator/move_windows.sh ; docker compose up  -d ; vic
+
+        # config for terminal project:
+        - bash ./tmuxinator/move_windows.sh ; vic
+
+      #config for php server:
+        # - vic
+        # - bash ./tmuxinator/move_windows.sh ; php -S localhost:8080
 
