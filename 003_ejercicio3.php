@@ -11,6 +11,10 @@ class CuentaBancaria {
 		$this->saldo = $saldoInicial;
 	}
 	public function mostrarSaldo() : void {
-		echo "El saldo de la cuenta" . $this->titular . "es " . $this->saldo;
+		echo "El saldo de la cuenta con titular: " . $this->titular . " es: " . $this->saldo;
 	}
 }
+
+$cuenta = new CuentaBancaria();
+$cuenta->asignarDatos("Victor Hernandez", number_format(1000000000));
+$cuenta->mostrarSaldo();
