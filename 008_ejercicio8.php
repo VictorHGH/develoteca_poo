@@ -8,7 +8,7 @@ class Autentication {
 	// Métodos(getters y setters)
 	// Setter (Asignar valor)
 	public function setUsuario($usuario) {
-		$this->usuario = $usuario;
+		return $this->usuario = $usuario;
 	}
 
 	// Getter (Leer valor)
@@ -16,14 +16,32 @@ class Autentication {
 		return $this->usuario;
 	}
 
-	public function login() {}
+	public function setPassword($password) {
+		return $this->password = $password;
+	}
 
-	public function logout() {}
+	public function getPassword() {
+		return $this->password;
+	}
+
+	public function login() {
+		// Este metodo se tendria que conectar a una base de datos
+		// Se puede usar con datos fijos para el login (posterior cambiar los datos)
+		if ($this->usuario == 'admin' && $this->password == '12345') {
+			echo "Usuario logueado";
+		} else {
+			echo "Usuario no logueado";
+		}
+	}
+
+	public function logout() {
+		echo "Sesión cerrada";
+	}
 }
 
 $auth = new Autentication();
 $auth->setUsuario('admin');
-
-echo $auth->getUsuario();
+$auth->setPassword('12345');
+$auth->login();
 
 ?>
