@@ -11,7 +11,7 @@ windows:
         # - bash ./tmuxinator/move_windows.sh ; docker compose up  -d ; vic
 
         # config for terminal project:
-        - bash ./tmuxinator/move_windows.sh ; vic
+        - bash ./tmuxinator/move_windows.zsh ; vic
 
       #config for php server:
         # - vic
